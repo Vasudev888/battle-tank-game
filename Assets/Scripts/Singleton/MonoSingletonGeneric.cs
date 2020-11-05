@@ -22,7 +22,7 @@ public class MonoSingletonGeneric<T> : MonoBehaviour where T : MonoSingletonGene
 
 }
 
-public class GameWorldNew : MonoSingletonGeneric<GameWorldNew>
+/*public class GameWorldNew : MonoSingletonGeneric<GameWorldNew>
 {
     protected override void Awake()
     {
@@ -42,4 +42,4 @@ public class WorldNew : MonoBehaviour
     {
         GameWorldNew.Instance.StartGameNew();
     }
-}
+}*/

@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TankController
+public class TankController : MonoSingletonGeneric<TankController>
 {
-/*    private TankView tankView;*/
+    [SerializeField]
+    private float MoveS
 
     public TankController(TankModel tankModel, TankView tankPrefab)
     {
