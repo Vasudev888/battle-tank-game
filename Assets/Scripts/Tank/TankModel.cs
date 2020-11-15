@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TankModel 
 {
-    public TankModel(int speed, float health)
+    public TankModel(TankType tankType, int speed, float health)
     {
         Speed = speed;
         Health = health;

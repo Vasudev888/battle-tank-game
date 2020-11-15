@@ -23,7 +23,7 @@ public class TankService : MonoBehaviour
 
     private TankController CreateNewTank()
     {
-        TankModel model = new TankModel(5, 100f);
+        TankModel model = new TankModel(TankType.None, 5, 100f);
         TankController tank = new TankController(model, tankView);
         return tank;
     }

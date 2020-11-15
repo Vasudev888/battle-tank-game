@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TankView : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public TankType tankType;
     private void Start()
     {
         Debug.Log("Tank View Created");
